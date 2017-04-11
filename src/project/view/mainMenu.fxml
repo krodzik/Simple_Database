@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane alignment="center" hgap="20" prefHeight="400" prefWidth="500" stylesheets="/project/style.css" vgap="20"
+          xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1"
+          fx:controller="project.controller.MainController">
+    <Button fx:id="buttonShowList" onAction="#onShowListClick" text="List employees" GridPane.rowIndex="0"/>
+    <Button onAction="#onAddClick" text="Add employee" GridPane.rowIndex="1"/>
+    <Button onAction="#onSaveClick" text="Save employees to file" GridPane.rowIndex="3"/>
+    <Button onAction="#onLoadClick" text="Load employees from file" GridPane.rowIndex="4"/>
+    <Button onAction="#onExitClick" text="Exit" GridPane.rowIndex="5"/>
+</GridPane>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane alignment="center" hgap="20" prefHeight="350" prefWidth="300" stylesheets="/project/style.css" vgap="20"
+          xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1"
+          fx:controller="project.controller.AddDeveloperController">
+    <Button fx:id="buttonBackToMainFromAdd" onAction="#onBackToMainMenuFromAddClick" text="Cancel" GridPane.rowIndex="5" GridPane.columnIndex="0"/>
+    <Button onAction="#onAddEmployeeInListClick" text="Add employee" GridPane.rowIndex="5" GridPane.columnIndex="1"/>
+    <Label text="Name" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+    <TextField fx:id="employeeNameTextField" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+    <Label text="Surname" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+    <TextField fx:id="employeeSurnameTextField" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+    <Label text="Salary" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+    <TextField fx:id="employeeSalaryTextField" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+    <Label text="Years of Experience" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+    <TextField fx:id="developerExperienceTextField" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+</GridPane>
